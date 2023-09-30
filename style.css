@@ -1,15 +1,15 @@
-<style.>
+<style>
 li{
-    background-color:black;
-color: white;
-padding: 100px;
+    background-color:yellow;
+color: yellow;
+padding: 300px;
 
 }body{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-background-image:url("../image/m2.jpg");
+background-image:url(../index/m2.jpg);
 background-size: cover;
 background-attachment: fixed;
-color:yellow;
+color:white;
 }
 li,h1,ul
 {
@@ -19,13 +19,14 @@ ul
 {
     margin-left:70%;
 }
+li
 {
     
-    color:red;
+    color:white;
 }
 li:hover
 {
-    color:white;
+    color:yellow;
 }
 input{width: 40%;
 padding: 2px;
@@ -33,18 +34,18 @@ padding: 2px;
 .searchbar{
     padding: 50px;
 }
-.box{border-color:green;
-border-width: 20px;
+.box{border-color:skyblue;
+border-width: 10px;
 border-style: solid;
 display: inline-block;
 width: 200px;
 }
 .box:hover{background-color: rgb(99, 38, 38);
-color: white;
+color: yellow;
 }
 .products
 {
-    text-align: center;
+    text-align: left;
 }
 .about{text-align: center;
     margin-top: 200px;
